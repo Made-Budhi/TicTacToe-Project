@@ -1,0 +1,54 @@
+Tic-tac-toe adalah permainan sederhana yang dapat dimainkan oleh dua pemain. Juga dikenal sebagai noughts dan crosses atau Xs dan Os. Permainan ini dimainkan pada grid 3x3, dan setiap sel di grid dapat berupa sel kosong, memiliki "X", atau memiliki "O". Tujuan dari permainan ini adalah untuk mendapatkan tiga simbol Anda dalam baris, baik secara horizontal, vertikal, atau diagonal.
+
+Berikut adalah tutorial dasar untuk bermain Tic-Tac-Toe versi kami :
+
+  1. Kami menyediakan papan dengan bentuk seperti dibawah:
+
+
+                  ||     ||
+                  ||     ||
+                  ||     ||
+              ====++=====++====
+                  ||     ||
+                  ||     ||
+                  ||     ||
+              ====++=====++====
+                  ||     ||
+                  ||     ||   
+                  ||     ||
+
+
+  2. Pemain yang mendapat giliran pertama adalah pemain yang meng-input username pertama kali. Anda akan selalu mendapat giliran pertama bila bermain di mode Single Player.
+
+  3. Pemain menandai pilihan dengan meng-input nomor sel yang ingin ditandai. Nomor yang mewakili sebuah sel dapat dilihat seperti grid dibawah:
+
+
+                  ||     ||
+              1   ||  2  ||  3
+                  ||     ||
+              ====++=====++====
+                  ||     ||
+              4   ||  5  ||  6
+                  ||     ||
+              ====++=====++====
+                  ||     ||
+              7   ||  8  ||  9
+                  ||     ||
+
+
+  3. Pemain pertama memilih nomor yang mewakili sel di grid yang secara otomatis menandainya dengan "X".
+
+  4. Pemain kedua kemudian memilih nomor yang mewakili sel di grid yang secara otomatis menandainya dengan "O".
+
+  5. Pemain bergantian memilih sel dan menandainya dengan simbol mereka, sampai salah satu pemain mendapatkan tiga simbol mereka dalam baris.
+
+  6. Jika semua sel pada grid terisi dan tidak ada pemain yang memiliki tiga simbol dalam baris, permainan seri.
+
+  7. Setelah permainan selesai, pemain dapat memilih untuk bermain lagi atau berhenti.
+
+Tips:
+
+- Cobalah untuk mencegah garis tiga lawan Anda sambil membuat garis tiga Anda sendiri.
+- Perhatikan sel apa yang dipilih lawan Anda dan cobalah untuk memprediksi gerakan selanjutnya mereka.
+- Catat sel-sel kosong yang bersebrangan dengan garis dua simbol Anda sendiri, inilah sel-sel yang harus dipilih untuk menang dalam permainan.
+- Tic-tac-toe adalah permainan sederhana yang dapat dinikmati oleh orang-orang dari semua usia. Dengan sedikit strategi, itu bisa menjadi permainan yang menyenangkan dan menantang.
